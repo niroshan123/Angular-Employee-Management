@@ -9,7 +9,7 @@ export class Employee{
     dateOfBirth:Date;
     department:string;
     isActive:boolean;
-    photo?:string;
+    photoPath?:string;
 
 
 }
