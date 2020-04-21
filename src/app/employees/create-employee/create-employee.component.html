@@ -72,10 +72,14 @@
 
   </option>
 </select>
-    
-
-
   </div>
+<div class="row">
+  <div class="form-group col-sm-5">
+    <label for="dateOfBirth">Date Of Birth </label>
+    <input id="dateOfBirth" name="dateOfBirth" [bsConfig]="bsConfig" placement="right" [(ngModel)]= "dateOfBirth" type="text" bsDatepicker class="form-control">
+  </div>
+</div>
+
 
 </div>
   <div class="panel-footer">
