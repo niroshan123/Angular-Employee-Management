@@ -30,6 +30,7 @@ export class CreateEmployeeComponent implements OnInit {
   isActive:boolean;
   department:string;
   dateOfBirth:Date;
+  photoPath:string;
   
   
 
