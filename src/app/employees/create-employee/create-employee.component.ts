@@ -12,6 +12,7 @@ import { BsDatepickerConfig } from 'ngx-bootstrap/datepicker';
 export class CreateEmployeeComponent implements OnInit {
   
 
+  previewPhoto = false;
   bsConfig: Partial<BsDatepickerConfig>;
  
   departments: Department[]=[
